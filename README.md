@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-MBtGGM33k2)
 - Live Site URL: [Live site](https://justCaioDev.github.io/Interactive-rating-component/)
 
 ## My process
