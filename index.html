@@ -15,39 +15,37 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/responsive.css">
 
+  <script src="scripts/script.js" defer></script>
+
 </head>
 <body>
   <main>
     <section class="rating-container">
       
-        <div class="rating-slider">
+        <div id="rating-slider" class="rating-slider">
           <div class="rating-state-start">
-            <!-- Rating state start -->
             <img src="images/icon-star.svg" alt="A star icon">
             <h1 class="rating-title"> How did we do?</h1>
             <p class="rating-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
             </p>
             <div class="rating-area">
-              <p id="1-rate" class="handle-rate selected">1</p>
+              <p id="1-rate" class="handle-rate ">1</p>
               <p id="2-rate" class="handle-rate ">2</p>
               <p id="3-rate" class="handle-rate ">3</p>
               <p id="4-rate" class="handle-rate ">4</p>
               <p id="5-rate" class="handle-rate ">5</p>
             </div>
-            <button class="rating-btn">Submit</button>
+            <button id="handle-btn" class="rating-btn">Submit</button>
           </div>
-          <!-- Rating state end -->
-          <!-- Thank you state start -->
           <div class="rating-state-end">
             <img src="images/illustration-thank-you.svg" alt="A illustration">
-            <p class="user-rating">You selected <!-- Add rating here --> out of 5</p>
+            <p class="user-rating">You selected <span id="user-rate">0</span> out of 5</p>
             <h1 class="rating-title">Thank you!</h1>
             <p class="rating-feedback"> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
             </p>
           </div>
         </div>
     
-        <!-- Thank you state end -->
     </section>
   </main>
 

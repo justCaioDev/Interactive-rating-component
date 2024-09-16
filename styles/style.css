@@ -47,6 +47,7 @@ main {
     height: 420px;
     display: flex;
     align-items: center;
+    transition: left .5s ease-out;
 }
 
 .rating-state-start, .rating-state-end {
