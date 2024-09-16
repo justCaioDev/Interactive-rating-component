@@ -1,0 +1,17 @@
+:root {
+    --primary-orange:  #fb7413;
+
+    --white: #ffffff;
+    --light-grey: #959eac;
+    --dark-blue: #262e38;
+    --very-dark-blue: #121417;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+p {
+    font-size: 0.938rem;
+}
