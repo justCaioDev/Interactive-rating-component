@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+    main {
+        padding-inline: 12px;
+    }
+    
+    .rating-container, .rating-state-start, .rating-state-end {
+        min-width: 350px;
+    }
+
+    .rating-slider {
+        width: 700px;
+    }
+    
+}
